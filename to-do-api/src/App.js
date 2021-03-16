@@ -79,9 +79,7 @@ let delTarea = async () => {
 
     const nuevaTarea = (tarea) => {
         console.log(tarea, '<-aqui esta la tarea');
-        const newList = [tarea, ...listaTareas];
-        setLista(newList)
-        //setListaTareas([tarea, ...listaTareas])
+        setListaTareas([tarea, ...listaTareas])
         editTarea()
     }
 
