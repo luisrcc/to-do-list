@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import TareaForm from './component/TareaForm';
-import Tarea from './component/Tarea';
-import './App.css';
+import TareaForm from './component/formTarea';
+import Tarea from './component/tarea';
+import './app.css';
 
 
 
